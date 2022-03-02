@@ -13,7 +13,7 @@ profiler view (sobald der Profiler mit dem Recording fertig ist)
  --> zwei Möglichkeiten zum Anzeigen der Daten:
 #### Möglichkeit 1:
 ```
-Link nach loadTimelineFromURL mit gerade erstellter CUSTOMURL ersetzen: https://chrome.../inspector.html?loadTimelineFromURL=CUSTOMURL
+URL von view-Befehl nach loadTimelineFromURL= mit gerade erstellter CUSTOMURL ersetzen: https://chrome.../inspector.html?loadTimelineFromURL=CUSTOMURL
 Bsp.: https://chrome-devtools-frontend.appspot.com/serve_rev/@901bcc219d9204748f9c256ceca0f2cd68061006/inspector.html?loadTimelineFromURL=http://45.81.235.239:30120/profileData.json
 ```
 #### Möglichkeit 2:
